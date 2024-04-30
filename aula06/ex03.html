@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tratamento de dados - Conversão</title>
+    <style>
+      body {
+        background-color: blue;
+        font: normal 1.5em "calibri";
+        color: white;
+      }
+
+      h1 {
+        color: rgb(254, 254, 99);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá, mundo! :-)</h1>
+    <p>Sou um programador :-)</p>
+    <script>
+      //CONVERSÃO DE STRING PARA NUMBER
+      //var n1 = Number.parseInt(window.prompt("Digite um número INTEIRO: "));
+      //var n2 = Number.parseInt(window.prompt("Digite outro número INTEIRO: "));
+      //var n3 = Number.parseFloat(window.prompt("Agora digite um número REAL/DECIMAL: "));
+      //var s = n1 + n2 + n3;
+      // NO LUGAR DE Number.parseInt-Float pode ser usado somente Number:
+      //--------------------------------------------------------
+      var n1 = Number(window.prompt("Digite um número: "));
+      var n2 = Number(window.prompt("Digite outro número: "));
+      var s = n1 + n2;
+      //window.alert("A soma dos números é: " + s);
+      window.alert(`A soma de ${n1} e ${n2} é: ${s}`);
+      //PARA CONVERSÃO DE NUMBER PARA STRING
+      //window.alert("A soma dos números é: " + s.toString());
+      //OU
+      //window.alert("A soma dos números é: " + String(s));
+    </script>
+  </body>
+</html>
