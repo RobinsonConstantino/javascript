@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+  background-color: blue;
+  font: normal 1.5vw "calibri";
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.496);
+}
+
+div {
+  text-align: center;
+  padding: 8px;
+}
+
+footer {
+  font-size: 1.1vw;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+a > img {
+  vertical-align: middle;
+}
+
+footer > p > a #imgf:hover {
+  width: 23px;
+  height: 23px;
+}
+
+footer > p > a#rcdev:hover {
+  font-size: 1.2vw;
+  color: rgb(135, 135, 135);
+}
