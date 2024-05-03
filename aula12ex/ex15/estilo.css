@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* BODY */
+
+body {
+  background-color: rgb(41, 127, 255);
+  font: normal 1.5vw "calibri";
+  padding: 0px;
+}
+/*-----------------------------------------------------*/
+
+/* HEADER */
+
+header {
+  color: white;
+  text-align: center;
+}
+
+/*-----------------------------------------------------*/
+
+/* SECTION */
+
+section {
+  font-size: 1.3vw;
+  background-color: white;
+  border-radius: 0px;
+  padding: 20px;
+  width: 40vw;
+  margin: auto;
+  display: auto;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.496);
+}
+
+input#verificar {
+  border: 1px solid gray;
+  padding: 4px 1px;
+  letter-spacing: 0px;
+  width: 60px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1vw;
+  border-radius: 10px;
+  /*box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.43);*/
+}
+
+input#verificar:hover {
+  background-color: #36568a;
+  color: white;
+  cursor: pointer;
+  border-style: double;
+}
+
+div > p > input {
+  width: 60px;
+  font-size: 1.1vw;
+  background-color: #f3f3f3;
+  border: 1px solid gray;
+  padding: 4px 1px;
+}
+
+div > p > input:hover {
+  font-size: 1.1vw;
+  background-color: #b2b0b0;
+  color: white;
+  border: none;
+}
+
+p#mas-fem {
+  padding: 0px;
+  display: inline-flex;
+  text-align: left;
+  width: 30vw;
+}
+
+/*-----------------------------------------------------*/
+
+/* FOOTER */
+
+footer {
+  font-size: 1.1vw;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+footer > p > a #imgf:hover {
+  width: 25px;
+  height: 25px;
+}
+
+footer > p > a#rcdev:hover {
+  font-size: 1.3vw;
+  color: rgb(82, 82, 82);
+}
+
+img {
+  padding-top: 15px;
+}
+
+img#imgf {
+  padding: 2px;
+  vertical-align: middle;
+}
+
+/*-----------------------------------------------------*/
+
+/* JavaScript */
+
+#res {
+  padding-top: 15px;
+}
+
+img#foto {
+  width: 50%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Verificador de Idade</title>
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Ano de nascimento:
+          <input type="number" name="txtano" id="txtano" min="0" max="2024" />
+        </p>
+        <p id="mas-fem">
+          Sexo:
+          <input type="radio" name="radsex" id="mas" checked />
+          <label for="mas">Masculino</label>
+          <input type="radio" name="radsex" id="fem" />
+          <label for="fem">Feminino</label>
+        </p>
+        <br />
+        <input
+          id="verificar"
+          type="button"
+          value="Verificar"
+          onclick="verificar()"
+        />
+      </div>
+      <div id="res">Preencha os dados acima e confira o resultado!</div>
+    </section>
+    <footer>
+      <p>
+        &COPY; Desenvolvido por
+        <a
+          id="rcdev"
+          href="https://github.com/RobinsonConstantino"
+          target="_blank"
+          >RC_Dev</a
+        >
+        <a href="https://github.com/RobinsonConstantino" target="_blank">
+          <img
+            id="imgf"
+            src="imagens/rc-dev.png"
+            alt="link para site rc dev"
+            width="20px"
+            height="20px"
+          />
+        </a>
+        . Todos os direitos reservados
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
